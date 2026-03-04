@@ -1,0 +1,7 @@
+KiwisIoT KEYWORD1
+send KEYWORD2
+sendJSON KEYWORD2
+onReceive KEYWORD2
+begin KEYWORD2
+run KEYWORD2
+isConnected KEYWORD2
