@@ -20,7 +20,9 @@ It provides simple APIs for WiFi connection, MQTT publish/subscribe, and real-ti
 
 ## 📦 Installation
 
-### Method 1 (Recommended)
-Install from **Arduino Library Manager**
+### Arduino Library Manager (After Approval)
+Search **KiwisIoT** in Arduino Library Manager
 
-Search:
+### Manual Installation (Available Now)
+Download ZIP from GitHub and install via:
+Sketch → Include Library → Add .ZIP Library
