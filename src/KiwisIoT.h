@@ -20,11 +20,11 @@ class KiwisIoT {
     void begin();
     void run();
 
-    // ===== SEND APIs =====
-    void send(const char* channel, int value);        // sensor, relay
-    void send(const char* channel, float value);      // float sensors
-    void send(const char* channel, String value);     // GPS, text
-    void sendJSON(const char* json);                  // raw JSON
+    
+    void send(const char* channel, int value);       
+    void send(const char* channel, float value);      
+    void send(const char* channel, String value);     
+    void sendJSON(const char* json);                  
 
     void onReceive(KiwisCallback cb);
 
@@ -37,7 +37,8 @@ class KiwisIoT {
     PubSubClient client;
     KiwisCallback userCallback;
 
-    String lastTxPayload;   // echo prevention
+    String lastTxPayload;   
+    String _mqttServer;     
 
     void connectWiFi();
     void connectMQTT();
